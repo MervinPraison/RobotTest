@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.9.9 on darwin)" generated="20220112 22:26:21.405" rpa="false" schemaversion="2">
+<suite id="s1" name="Organised" source="/Users/mervinpraison/Downloads/robot/organised.robot">
+<test id="s1-t1" name="TEST_01: Login to some page">
+<status status="FAIL" starttime="20220112 22:26:21.547" endtime="20220112 22:26:21.548">Test case contains no keywords.</status>
+</test>
+<test id="s1-t2" name="Log in with correct credentials">
+<status status="FAIL" starttime="20220112 22:26:21.549" endtime="20220112 22:26:21.549">Test case contains no keywords.</status>
+</test>
+<test id="s1-t3" name="Check user name is Joe">
+<status status="FAIL" starttime="20220112 22:26:21.549" endtime="20220112 22:26:21.550">Test case contains no keywords.</status>
+</test>
+<doc>A simple example to test a login page</doc>
+<status status="FAIL" starttime="20220112 22:26:21.406" endtime="20220112 22:26:21.574"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Organised">Organised</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220112 22:26:21.546" level="ERROR">Error in resource file '/Users/mervinpraison/Downloads/robot/resources/resource_login.robot': Creating keyword 'Input Text' failed: Keyword with same name defined multiple times.</msg>
+</errors>
+</robot>
